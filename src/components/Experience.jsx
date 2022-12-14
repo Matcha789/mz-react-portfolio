@@ -77,7 +77,7 @@ const Experience = () => {
       id: 11,
       src: threejs,
       title: "Three.js",
-      style: "shadow-white-400",
+      style: "shadow-gray-400",
     },
   ];
 

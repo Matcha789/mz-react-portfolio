@@ -1,8 +1,8 @@
 import React from "react";
 //import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
 import threeJsSite from "../assets/portfolio/threejs-portfolio-pic.png";
-import reactAdmin from "../assets/portfolio/react-admin-portfolio-pic";
-import todoList from "../assets/portfolio/todolist-portfolio-pic";
+import reactAdmin from "../assets/portfolio/react-admin-portfolio-pic.png";
+import todoList from "../assets/portfolio/todolist-portfolio-pic.png";
 //import reactParallax from '../assets/portfolio/reactParallax.jpg';
 //import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 //import reactWeather from '../assets/portfolio/reactWeather.jpg';
@@ -44,7 +44,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, href }) => (
+          {portfolios.map(({ id, src, href, demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
